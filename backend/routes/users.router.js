@@ -6,7 +6,7 @@ const {
   createUser,
   getAllUsers,
   getUser,
-} = require("../controller/users.contoller");
+} = require("../controllers/users.controller");
 
 // get all users
 router.get("/", checkAuth, getAllUsers);

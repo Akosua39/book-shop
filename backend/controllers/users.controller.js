@@ -50,4 +50,8 @@ const createUser = (req, res) => {
   res.status(200).json(users);
 };
 
-module.exports = router;
+module.exports = {
+  getAllUsers,
+  getUser,
+  createUser,
+};
